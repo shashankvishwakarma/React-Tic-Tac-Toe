@@ -1,47 +1,44 @@
-# React-Tic-Tac-Toe
-React-Tic-Tac-Toe
+# React Tic-Tac-Toe
 
-# React + TypeScript + Vite
+A simple Tic-Tac-Toe game built with React, TypeScript, and Vite.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project provides a minimal setup to get a React application running with Vite, TypeScript, and ESLint. It includes hot module replacement (HMR) and some basic ESLint rules.
 
-Currently, two official plugins are available:
+## Features
+- React with TypeScript
+- Vite for fast development and build
+- ESLint for code quality
+- Hot Module Replacement (HMR)
+- Configurable ESLint setup for type-aware linting
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
-  uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)
-  uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+- Node.js (v12.0.0 or higher)
+- npm or yarn
 
-## Start a New React Project with Vite
+## Getting Started
+### Installation
 
-- [React starter](https://vitejs.dev/guide/)
+- Clone the repository:
 
 ```bash
-npm create vite@latest
+  git clone https://github.com/shashankvishwakarma/React-Tic-Tac-Toe.git
+  cd React-Tic-Tac-Toe
 ```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable
-type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- Install dependencies:
+```bash
+    npm install
+    # or
+    yarn install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended`
-  to `plugin:@typescript-eslint/recommended-type-checked`
-  or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and
-  add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Run Locally
+- Start the server
+
+```bash
+  npm run dev
+```
+
+## Project Demo
+![Tic-Tac-Toe.gif](Tic-Tac-Toe.gif)
